@@ -1,0 +1,49 @@
+body
+{
+    background-color: antiquewhite;
+}
+
+.main{
+
+   background-color: rgb(163, 180, 180);
+   display: flex;
+   flex-direction: column;
+   height:400px;
+   justify-content: center;
+   align-items: center;
+   margin-top:200px;
+}
+
+
+#Span
+{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+
+.btn
+{
+    font-size: 28px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+h1
+{
+    font-size:60px;
+    font-weight: bold;
+}
+
+
+
+.btn:hover
+
+{
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
