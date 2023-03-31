@@ -9,15 +9,19 @@ btn.forEach(function(btn){
     btn.addEventListener("click",function(e){
 
         const styles = e.currentTarget.classList;
-        if(styles.contains('Decrease'))
+        if(styles.contains('Increase'))
         {
-            count--;
+            count++;
 
         }
        
-        else if(styles.contains('Increase'))
+        else if(styles.contains('Decrease'))
         {
-            count++;
+            if(count>0)
+            {
+                count--;
+            }
+           
         }
         else
         {
